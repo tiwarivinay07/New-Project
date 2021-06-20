@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name tiwarivinay07
+git config --global user .email tiwarivinay981257@gmail.com
+git init
+git add
+git commit -m "Initial commit"
+git status #Just to see
+ssh-keygen
+tail <path to id_rsa.pub>
+git remote add origin <ssh url.git>
+git push origin master 
